@@ -12,7 +12,3 @@ module.exports.locationInfo = function(req, res){
 module.exports.addReview = function(req, res) {
     res.render('location-review-form', {title: 'Add Review'});
 };
-
-module.exports.anout = function (req, res){
-    res.render('generic-text', {title: "About"});
-};
